@@ -65,6 +65,18 @@
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
   ('pyi_rth_pkgutil',
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
@@ -85,16 +97,62 @@
   ('unicodedata.pyd', 'C:\\Python312\\DLLs\\unicodedata.pyd', 'EXTENSION'),
   ('select.pyd', 'C:\\Python312\\DLLs\\select.pyd', 'EXTENSION'),
   ('_socket.pyd', 'C:\\Python312\\DLLs\\_socket.pyd', 'EXTENSION'),
-  ('_ctypes.pyd', 'C:\\Python312\\DLLs\\_ctypes.pyd', 'EXTENSION'),
-  ('_wmi.pyd', 'C:\\Python312\\DLLs\\_wmi.pyd', 'EXTENSION'),
-  ('_queue.pyd', 'C:\\Python312\\DLLs\\_queue.pyd', 'EXTENSION'),
-  ('_uuid.pyd', 'C:\\Python312\\DLLs\\_uuid.pyd', 'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Python312\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
   ('pyexpat.pyd', 'C:\\Python312\\DLLs\\pyexpat.pyd', 'EXTENSION'),
+  ('_ctypes.pyd', 'C:\\Python312\\DLLs\\_ctypes.pyd', 'EXTENSION'),
+  ('_queue.pyd', 'C:\\Python312\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_wmi.pyd', 'C:\\Python312\\DLLs\\_wmi.pyd', 'EXTENSION'),
+  ('_overlapped.pyd', 'C:\\Python312\\DLLs\\_overlapped.pyd', 'EXTENSION'),
+  ('_asyncio.pyd', 'C:\\Python312\\DLLs\\_asyncio.pyd', 'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp312-win_amd64.pyd',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp312-win_amd64.pyd',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\charset_normalizer\\md.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd', 'C:\\Python312\\DLLs\\_uuid.pyd', 'EXTENSION'),
   ('VCRUNTIME140.dll', 'C:\\Python312\\VCRUNTIME140.dll', 'BINARY'),
   ('libcrypto-3.dll', 'C:\\Python312\\DLLs\\libcrypto-3.dll', 'BINARY'),
   ('libssl-3.dll', 'C:\\Python312\\DLLs\\libssl-3.dll', 'BINARY'),
   ('libffi-8.dll', 'C:\\Python312\\DLLs\\libffi-8.dll', 'BINARY'),
   ('VCRUNTIME140_1.dll', 'C:\\Python312\\VCRUNTIME140_1.dll', 'BINARY'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
   ('certifi\\cacert.pem',
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\certifi\\cacert.pem',
@@ -102,30 +160,6 @@
   ('certifi\\py.typed',
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\certifi\\py.typed',
-   'DATA'),
-  ('selenium\\webdriver\\common\\devtools\\v132\\py.typed',
-   'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v132\\py.typed',
-   'DATA'),
-  ('selenium\\webdriver\\common\\mutation-listener.js',
-   'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\mutation-listener.js',
-   'DATA'),
-  ('selenium\\webdriver\\common\\devtools\\v130\\py.typed',
-   'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v130\\py.typed',
-   'DATA'),
-  ('selenium\\webdriver\\common\\linux\\selenium-manager',
-   'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\linux\\selenium-manager',
-   'DATA'),
-  ('selenium\\webdriver\\remote\\isDisplayed.js',
-   'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
-   'DATA'),
-  ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
-   'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
    'DATA'),
   ('selenium\\py.typed',
    'C:\\Users\\Win10\\OneDrive\\Área de '
@@ -135,6 +169,34 @@
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\macos\\selenium-manager',
    'DATA'),
+  ('selenium\\webdriver\\common\\linux\\selenium-manager',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\linux\\selenium-manager',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\findElements.js',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\remote\\findElements.js',
+   'DATA'),
+  ('selenium\\webdriver\\common\\mutation-listener.js',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\mutation-listener.js',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v131\\py.typed',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v131\\py.typed',
+   'DATA'),
+  ('selenium\\webdriver\\common\\devtools\\v130\\py.typed',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v130\\py.typed',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\isDisplayed.js',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
+   'DATA'),
   ('selenium\\webdriver\\remote\\getAttribute.js',
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
@@ -143,13 +205,37 @@
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v85\\py.typed',
    'DATA'),
-  ('selenium\\webdriver\\common\\devtools\\v131\\py.typed',
+  ('selenium\\webdriver\\common\\devtools\\v132\\py.typed',
    'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v131\\py.typed',
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\common\\devtools\\v132\\py.typed',
    'DATA'),
-  ('selenium\\webdriver\\remote\\findElements.js',
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
    'C:\\Users\\Win10\\OneDrive\\Área de '
-   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\selenium\\webdriver\\remote\\findElements.js',
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'C:\\Users\\Win10\\OneDrive\\Área de '
+   'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\Win10\\OneDrive\\Área de '
@@ -158,7 +244,7 @@
  [],
  False,
  False,
- 1739886458,
+ 1739911798,
  [('run.exe',
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

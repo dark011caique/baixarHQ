@@ -1,8 +1,11 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 import wget
 import re
+import subprocess
 
 # Função para extrair o ID da URL
 def extrair_id(url):
@@ -10,7 +13,27 @@ def extrair_id(url):
     match = re.search(padrao, url)
     return match.group(0) if match else None
 
-driver = webdriver.Chrome()
+
+chrome_user_data_dir = r"C:\Users\Win10\AppData\Local\Google\Chrome\User Data"# Substitua pelo caminho correto
+chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+
+chrome_command = f'"{chrome_path}" --remote-debugging-port=9222 --user-data-dir="C:\\ChromeDebug"'
+
+try:
+    print("Abrindo o navegador no modo de depuração...")
+    subprocess.Popen(chrome_command, shell=True)
+except Exception as e:
+    print(f"Erro ao abrir o Chrome: {e}")
+    
+
+# Configuração do Selenium para se conectar ao navegador já aberto
+chrome_user_data_dir = r"C:\Users\Win10\AppData\Local\Google\Chrome\User Data"# Substitua pelo caminho correto
+options = webdriver.ChromeOptions()
+options.add_experimental_option("debuggerAddress", "localhost:9222")  # Conecta à porta de depuração
+options.add_argument(f"user-data-dir={chrome_user_data_dir}")  # Usar o diretório de dados do usuário
+
+# Usando o WebDriver Manager para baixar o ChromeDriver automaticamente
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 # Abrir a página principal
 driver.get("https://timelinecomics.blogspot.com/2016/02/invincible-image.html#google_vignette")
