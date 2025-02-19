@@ -60,7 +60,7 @@ for index, link in enumerate(links):
     # Extrair o ID da URL
     arquivo_id = extrair_id(download_url)
     if arquivo_id:
-        link_download = f"https://drive.usercontent.google.com/u/0/uc?id={arquivo_id}&export=download&resourcekey=0-P3NIZb8l-GzDgmtufc6wiA"
+        link_download = f"https://drive.usercontent.google.com/u/0/uc?id={arquivo_id}&export=download"
         print(f"Link para download: {link_download}")
 
         # Nome do arquivo 
@@ -81,5 +81,4 @@ for index, link in enumerate(links):
 
 print("\nDownloads concluídos!")
 driver.quit()
-
 

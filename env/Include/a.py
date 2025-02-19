@@ -59,3 +59,5 @@ for index, link in enumerate(links):
 
 print("\nDownloads concluídos!")
 driver.quit()
+
+
