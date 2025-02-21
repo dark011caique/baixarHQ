@@ -290,7 +290,7 @@
  [],
  False,
  False,
- 1740173134,
+ 1740175634,
  [('run.exe',
    'C:\\Users\\Win10\\OneDrive\\Área de '
    'Trabalho\\alura\\baixarHQ\\env\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
